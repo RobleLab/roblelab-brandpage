@@ -1,0 +1,26 @@
+.iso-roble {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    /* top: 35%;
+    position: absolute; */
+}
+
+.iso-lab {
+    color: #81ffd9;
+}
+
+.vl {
+    margin-left: 5px;
+    border-left: 2px solid rgb(216, 209, 209);   
+  }
+
+.logo-tree {
+    width: "3px";
+    height: "3px";
+    text-align: justify;
+    vertical-align: text-bottom;
+}
+  
+  

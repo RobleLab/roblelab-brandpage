@@ -10,8 +10,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
 }
 
@@ -26,7 +27,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -138,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  background: #4fa291;
+  background: #00ccae;
 }
 .navbar .dropdown ul {
   display: block;
@@ -160,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  color: #2a2c39;
+  color: #0c183f;
   margin: 0 5px;
   font-size: 14px;
 }
@@ -223,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(20, 21, 28, 0.9);
+  background: #0c183f;
   transition: 0.3s;
   z-index: 999;
 }

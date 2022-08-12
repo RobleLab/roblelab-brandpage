@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .iso-roble {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     text-decoration: none;
     /* top: 35%;
     position: absolute; */
 }
 
 .iso-lab {
-    color: #81ffd9;
+    color: #00ccae;
 }
 
 .vl {

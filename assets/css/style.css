@@ -76,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  background: rgba(12, 24, 63, 0.9);
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: rgba(12, 24, 63, 0.9);
 }
 #header .logo h1 {
   font-size: 28px;
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
+  background: linear-gradient(15deg, #0c1840 0%, #0a1a68 100%);
   padding: 0;
 }
 #hero .carousel-container {
@@ -463,14 +463,14 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #6cd6c1;
+  background: #f7931e;
   margin: 4px 10px;
 }
 .section-title p {
@@ -479,7 +479,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #2a2c39;
 }
 

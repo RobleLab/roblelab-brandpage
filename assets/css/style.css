@@ -72,17 +72,17 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 200px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(12, 24, 63, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(12, 24, 63, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 #header .logo h1 {
   font-size: 28px;
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(15deg, #0c1840 0%, #0a1a68 100%);
+  background: linear-gradient(315deg, #0c1840 0%, #0a1a68 100%);
   padding: 0;
 }
 #hero .carousel-container {

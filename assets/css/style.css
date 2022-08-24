@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
   font-size: 14px;
-  color: #fff;
+  color: #0c183f;
   white-space: nowrap;
   transition: 0.3s;
   border-radius: 50px;
@@ -292,18 +292,24 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(315deg, #0c1840 0%, #0a1a68 100%);
+  background: white;
   padding: 0;
+  
 }
 #hero .carousel-container {
+  margin-top:  300px;
+  margin-left: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   position: relative;
-  height: 70vh;
-  padding-top: 60px;
+  height: 50vw;
+  width: auto;
+  border-top-left-radius: 60vw;
+  border-top-right-radius: 60vw;
+  background: linear-gradient(315deg, #0c1840 0%, #0a1a68 100%);;
 }
 #hero h2 {
   color: #fff;

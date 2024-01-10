@@ -5,37 +5,35 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>RobleLab Home Page</title>
+  <title>RobleLab</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/roble/roblelabico.svg" rel="icon">
-  <link href="assets/img/roble/roblelabico.svg" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
-  
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- RobleLab CSS Style -->
   <link href="assets/css/roble-style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Selecao - v4.7.0
-  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Template Name: Reveal
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -43,340 +41,157 @@
 
 <body>
 
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@roblelab.com.ar">info@roblelab.com.ar</a></i>
+        <!-- <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i> -->
+      </div>
+      <!-- <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div> -->
+    </div>
+  </section><!-- End Top Bar-->
+
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
-    <div class="container d-flex align-items-center justify-content-between">
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div id="logo">
+        <!-- <h1><a href="index.html">Roble<span>Lab</span></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo.png" class="roble-logo-size" alt=""></a>
+      </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Acerca de</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about" data-i18n="topbar_about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services" data-i18n="topbar_services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio" data-i18n="topbar_portfolio">Portolio</a></li>
+          <li><a class="nav-link scrollto" href="#team" data-i18n="topbar_team">Team</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="#contact" data-i18n="topbar_contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <div class="logo">
-        <!-- <h1><img width="40px" src="assets/img/roble/Roble Lab icono_Mesa de trabajo 1.svg" class="logo-tree"><span class="vl"></span> -->
-        <h1><img width="200px" src="assets/img/roble/full-isologo-new.png" class="logo-tree">
-<!--           
-        <a href="index.html"><span class="iso-roble">ROBLE<span class="iso-lab">LAB</span></span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img  width = "600px" src="assets/img/roble/full-isologo-new.png" alt="" class="img-fluid"></a> -->
-      </div>     
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="#portfolio">Desarrollos</a></li>
-          <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
 
-    <div id="heroCarousel" data-bs-interval="8000" class="container carousel carousel-fade" data-bs-ride="carousel">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span class="iso-roble">ROBLE<span class="iso-lab">LAB</span></span></h2>
-          <!-- <p class="animate__animated fanimate__adeInUp"><span class="iso-roble">ROBLE<span class="iso-lab">LAB</span></span>: Desarrollo de software. Dispositivos embebidos. Soluciones integrables en la nube.</p> -->
-          <p class="animate__animated fanimate__adeInUp">Somos un equipo de ingenieros y profesionales que brindamos soluciones integrales orientadas a la industria energética, internet de las cosas, ingeniería de software e infraestructura en la nube.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saber más</a>
-        </div>
+    <div class="hero-content" data-aos="fade-up">
+      <h2><tra data-i18n="slogan0">Making</tra> <span><tra data-i18n="slogan1">your ideas</tra></span><br><tra data-i18n="slogan2">happen!</tra></h2>
+      <div>
+        <a href="#about" class="btn-get-started scrollto" data-i18n="hero_but1">Get Started</a>
+        <a href="#portfolio" class="btn-projects scrollto" data-i18n="hero_but2">Our Projects</a>
       </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Profesionales a su servicio</h2>
-          <p class="animate__animated animate__fadeInUp">Nos ponemos al servicio de su proyecto, generando el valor tecnologico necesario para alcanzar nuevos objetivos</p>
-          <a href="#portfolio" class="btn-get-started animate__animated animate__fadeInUp scrollto">Desarrollos</a>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <!-- <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Tercera descripción</h2>
-          <p class="animate__animated animate__fadeInUp">una startup con origen en Argentina dedicada a desarrollo de software una startup con origen en Argentina dedicada a desarrollo de software una startup con origen en Argentina dedicada a desarrollo de software una startup con origen en Argentina dedicada a desarrollo de software una startup con origen en Argentina dedicada a desarrollo de software</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-        </div>
-      </div> -->
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a>
-
     </div>
 
-    <svg class="hero-waves" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-      <defs>
-        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-      </defs>
-      <g class="wave1">
-        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-      </g>
-      <g class="wave2">
-        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-      </g>
-      <g class="wave3">
-        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-      </g>
-    </svg>
+    <div class="hero-slider swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide roble-blur roble-fade-img" style="background-image: url('assets/img/hero-carousel/1.jpg');"></div>
+        <div class="swiper-slide roble-blur" style="background-image: url('assets/img/hero-carousel/2.jpg');"></div>
+        <div class="swiper-slide roble-blur" style="background-image: url('assets/img/hero-carousel/3.jpg');"></div>
+        <div class="swiper-slide roble-blur" style="background-image: url('assets/img/hero-carousel/4.jpg');"></div>
+        <div class="swiper-slide roble-blur" style="background-image: url('assets/img/hero-carousel/5.jpg');"></div>
+      </div>
+    </div>
 
-  </section><!-- End Hero -->
+  </section><!-- End Hero Section -->
 
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Acerca de RobleLab</h2>
-          <p>¿Quiénes somos?</p>
-        </div>
-
-        <div class="row content" data-aos="fade-up">
-          <div class="col-lg-6">
-            <p>
-              Somos una startup con origen en Argentina dedicada a desarrollo de software y hardware para la industria con nuestro foco en:
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Calidad ambiental y eficiencia energética </li>
-              <li><i class="ri-check-double-line"></i> Monitoreo escalable de sistemas remotos </li>
-              <li><i class="ri-check-double-line"></i> Desarrollo de sistemas de alta disponibilidad en sistemas embebidos </li>
-              <li><i class="ri-check-double-line"></i> Procesamiento inteligente de imágenes </li>
-              <li><i class="ri-check-double-line"></i> Información en la nube siempre disponibles </li>
-            </ul>
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="assets/img/about-img.png" alt="">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Contáctenos y compártanos su idea para recibir una solución acorde a sus necesidades y la de sus clientes.
-            </p>
-            <a href="#services" class="btn-learn-more">Servicios</a>
+
+          <div class="col-lg-6 content">
+            <h2 data-i18n="about_title">How can we help?</h2>
+            <h3 data-i18n="about_description">Somos una startup con origen en Argentina dedicada a desarrollo de software y diseño de hardware para la industria con nuestro foco en:</h3>
+
+            <ul>
+              <li><i class="bi bi-check-circle"></i><tra data-i18n="about_list1">Calidad ambiental y eficiencia energética</tra></li>
+              <li><i class="bi bi-check-circle"></i><tra data-i18n="about_list2">Monitoreo escalable de sistemas remotos</tra></li>
+              <li><i class="bi bi-check-circle"></i><tra data-i18n="about_list3">Desarrollo de sistemas en sistemas embebidos</tra></li>
+              <li><i class="bi bi-check-circle"></i><tra data-i18n="about_list4">Procesamiento inteligente de imágenes</tra></li>
+              <li><i class="bi bi-check-circle"></i><tra data-i18n="about_list5">Información en la nube siempre disponible</tra></li>
+              
+            </ul>
+
+            <h3 data-i18n="about_description2">mas texto:</h3>
+
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Features Section ======= -->
-    <!-- <section id="features" class="features">
-      <div class="container">
-
-        <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-3" data-aos="zoom-in">
-            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-              <i class="ri-gps-line"></i>
-              <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-              <i class="ri-body-scan-line"></i>
-              <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-              <i class="ri-sun-line"></i>
-              <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-              <i class="ri-store-line"></i>
-              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
-            </a>
-          </li>
-        </ul>
-
-        <div class="tab-content" data-aos="fade-up">
-          <div class="tab-pane active show" id="tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-1.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-2.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-3">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                </ul>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-3.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-4">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-4.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Features Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <!-- <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-out">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section>End Cta Section -->
-
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Servicios</h2>
-          <p>¿Qué ofrecemos?</p>
+    <section id="services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 data-i18n="services_title">Servicios</span></h2>
+          <p data-i18n="services_description">Como podemos ayudarle a implementar su proyecto:</span></p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box" data-aos="zoom-in-left">
-              <div class="icon"><i class="bi bi-code-square" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Software development</a></h4>
-              <p class="description">Desarrollamos sistemas flexibles adaptables a todo tipo de industria, como alimenticia, agropecuaria, minera, petrolera, etc. Productos de alto valor agregado. Reemplazo de importaciones y posibilidad de exportación.
-                </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-cloud" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Cloud computing</a></h4>
-              <p class="description">Desarrollamos soluciones integrables en ambientes de cloud computing en alta disponibilidad.</p>
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-code-square"></i></div>
+              <h4 class="title"><a href=""><tra data-i18n="services_1_title">Desarrollo de software</tra></a></h4>
+              <p class="description"><tra data-i18n="services_1_description"> sistemas flexibles adaptables a todo tipo de industria, como alimenticia, agropecuaria, minera, petrolera, etc. Productos de alto valor agregado. Reemplazo de importaciones y posibilidad de exportación.</tra></p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-lightbulb" style="color: #3e72d3;"></i></div>
-              <h4 class="title"><a href="">Eficiencia energética</a></h4>
-              <p class="description">Contamos con experiencia en la indústria energética poniéndo foco en eficiencia energética y cuidado de medio ambiente.</p>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-cloud"></i></div>
+              <h4 class="title"><a href=""><span id="services_2_title">Integración en la nube</span></a></h4>
+              <p class="description"><tra data-i18n="services_2_description">Desarrollamos soluciones integrables en ambientes de cloud computing en alta disponibilidad.</tra></p>
             </div>
           </div>
 
-
-          <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-cpu-fill" style="color:#ffa346;"></i></div>
-              <h4 class="title"><a href="">Dispositivos embebidos</a></h4>
-              <p class="description">Diseñamos hardware y firmware para dispositivos embebidos en las arquitecturas mas relevantes en el mercado, como Raspberry Pi, ESP32, ESP8266, etcétera.</p>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <div class="icon"><i class="bi bi-cpu-fill"></i></div>
+              <h4 class="title"><a href=""><tra data-i18n="services_3_title">Dispositivos embebidos</tra></a></h4>
+              <p class="description"><tra data-i18n="services_3_description">Diseñamos hardware y firmware para dispositivos embebidos en las arquitecturas mas relevantes en el mercado, como Raspberry Pi, ESP32, ESP8266, etcétera.</tra></p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
-              <div class="icon"><i class="bi bi-webcam" style="color: #61eee7;"></i></div>
-              <h4 class="title"><a href="">Image Processing</a></h4>
-              <p class="description">Desarrollamos software de Procesamiento de imágenes como Video-magnification, visión térmica e identificación de patrones y distancia entre objetos en tiempo real.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-5 ">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-check2-circle" style="color: #3cb604;"></i></div>
-              <h4 class="title"><a href="">Clientes satisfechos</a></h4>
-              <p class="description">Nuestras soluciones han cumplido las espectativas de nuestros clientes y socios. ¡Descubra nuestros <a href="#clients">clientes y socios</a> para saber más!.</p>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <div class="icon"><i class="bi bi-lightbulb"></i></div>
+              <h4 class="title"><a href=""><tra data-i18n="services_4_title">Eficiencia energética</tra></a></h4>
+              <p class="description"><tra data-i18n="services_4_description">Contamos con experiencia en la indústria energética poniéndo foco en eficiencia energética y cuidado de medio ambiente.</tra></p>
             </div>
           </div>
 
@@ -385,351 +200,309 @@
       </div>
     </section><!-- End Services Section -->
 
+    <!-- ======= Clients Section ======= -->
+    <section id="clients">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 data-i18n="clients_title">Clientes</h2>
+          <p data-i18n="clients_description"></p>
+        </div>
+
+        <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid client-filter-grayscale" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid client-filter-invert" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid client-filter-grayscale" alt=""></div>
+            
+            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid client-filter-grayscale" alt=""></div> -->
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid client-filter-grayscale" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid client-filter-grayscale" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid client-filter-grayscale client-filter-scale" alt=""></div>
+            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-8.jpeg" class="img-fluid client-filter-grayscale client-filter-scale" alt=""></div> -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Proyectos</h2>
-          <p>Nuestros desarrollos</p>
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 data-i18n="portfolio_title">Nuestro portfolio</h2>
+          <p data-i18n="portfolio_description">Trabajamos en cosas así:</p>
         </div>
-<!-- Filters
-        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
-          <li data-filter="*" class="filter-active">Todos</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-hw">Hardware</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
--->
-        <div class="row portfolio-container" data-aos="fade-up">
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Hardware</li>
+              <li data-filter=".filter-web">Img Process</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/b2c.PNG" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web interfaces</h4>
-              <p>Breathe 2 Change project</p>
-              <a href="assets/img/portfolio/b2c.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Breathe 2 Change"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/hw1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Hardware testing</h4>
-              <p>Hardware testing</p>
-              <a href="assets/img/portfolio/hw1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hardware testing"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/hw2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Hardware testing</h4>
-              <p>Hardware testing</p>
-              <a href="assets/img/portfolio/hw2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hardware testing"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/hw3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Hardware design</h4>
-              <p>Hardware design</p>
-              <a href="assets/img/portfolio/hw3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hardware design"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/hw4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Hardware design</h4>
-              <p>Hardware design</p>
-              <a href="assets/img/portfolio/hw4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hardware design"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
+            <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/app_01.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Image Processing</h4>
-              <p>Visual thermal overlay</p>
-              <a href="assets/img/portfolio/app_01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Image Processing"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/hw5.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Hardware design</h4>
-              <p>Breathe 2 Change project</p>
-              <a href="assets/img/portfolio/hw5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hardware design"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
+            <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/b2c1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Breathe 2 Change</h4>
-              <p>Breathe 2 Change project</p>
-              <a href="assets/img/portfolio/b2c1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="B2C project"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/sw03.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Image Processing</h4>
-              <p>Dispositivos embebidos</p>
-              <a href="assets/img/portfolio/sw03.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Image Processing"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
+            <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/hw6.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Hardware testing</h4>
-              <p>Hardware testing</p>
-              <a href="assets/img/portfolio/hw6.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hardware testing"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/hw10.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Hardware design</h4>
-              <p>IoT Gateway</p>
-              <a href="assets/img/portfolio/hw10.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hardware design"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hw">
-            <div class="portfolio-img"><img src="assets/img/portfolio/sw_magnification-image.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Image Processing</h4>
-              <p>Video Magnification</p>
-              <a href="assets/img/portfolio/sw_magnification-animation.gif" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Image Processing"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/3d_00.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Image Processing</h4>
-              <p>3D scanner</p>
-              <a href="assets/img/portfolio/3d_01.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="3D scanner"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/distance_00.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Image Processing</h4>
-              <p>Distance surveillance</p>
-              <a href="assets/img/portfolio/distance_00.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Distance surveillance"><i class="bx bx-plus"></i></a>
-              <!-- <a href="portfolio-details-template.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-         
 
         </div>
 
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
 
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Roble</h2>
-          <p>Nuestro equipo</p>
-        </div>
-
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action">
+      <div class="container" data-aos="zoom-out">
         <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3 class="cta-title" data-i18n="cta_title">Potencia tu negocio con nosotros</h3>
+            <p class="cta-text" data-i18n="cta_description">Descubre cómo nuestras soluciones en IoT, desarrollo de software y procesamiento de datos pueden potenciar tu empresa.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#"><tra data-i18n="cta_button">¡Explora nuestras soluciones ahora!</tra></a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Call To Action Section -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <!-- <img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""> -->
+    <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 data-i18n="team_title">Our Team</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <!-- <div class="pic"><img src="assets/img/team-1.png" alt=""></div> -->
+              <div class="details">
+                <h4><tra data-i18n="ing_abreviatura">Ing. </tra>Pablo A. Corrales</h4>
+                <span>Chief Executive Officer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href="https://www.linkedin.com/in/pablo-a-corrales/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Pablo A. Corrales</h4>
-                <span>Ensayos y Calidad</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <!-- <img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""> -->
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <!-- <div class="pic"><img src="assets/img/team-2.png" alt=""></div> -->
+              <div class="details">
+                <h4><tra data-i18n="ing_abreviatura">Ing. </tra>Sebastian Fernández</h4>
+                <span>Embedded Systems developer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href="https://www.linkedin.com/in/sefernandez/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Sebastian Fernandez</h4>
-                <span>Sistemas Embebidos</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <!-- <img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""> -->
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <!-- <div class="pic"><img src="assets/img/team-3.png" alt=""></div> -->
+              <div class="details">
+                <h4><tra data-i18n="ing_abreviatura">Ing. </tra>Juan Pablo Rabino</h4>
+                <span>Software developer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href="https://www.linkedin.com/in/jprabino/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Cristian Giambruni</h4>
-                <span>Cloud e infraestructura</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <!-- <img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""> -->
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <!-- <div class="pic"><img src="assets/img/team-4.png" alt=""></div> -->
+              <div class="details">
+                <h4><tra data-i18n="apu_abreviatura"></tra>Cristian Giambruni</h4>
+                <span>SysAdmin</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href="https://www.linkedin.com/in/cgiambruni/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Juan Pablo Rabino</h4>
-                <span>Desarrollo de Software</span>
               </div>
             </div>
           </div>
-
         </div>
 
       </div>
     </section><!-- End Team Section -->
 
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-out">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>TRUSTED BY</h2>
-          <!-- <p>Contáctenos</p> -->
-        </div>
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" style="filter: invert(70%)" class="img-fluid" alt=""><small style="text-align: center">ev Technologies</small></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" style="filter: invert(70%)" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" style="filter: grayscale(1)" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" style="filter: grayscale(1)" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" style="filter: grayscale(1)" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" style="filter: grayscale(1)" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" style="filter: grayscale(1)" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-12.jpeg" style="filter: grayscale(1)" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.svg" style="filter: invert(70%)" class="img-fluid" alt="optim"></div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Contacto</h2>
-          <p>Contáctenos</p>
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 data-i18n="contact_title">Contacto</h2>
+          <p data-i18n="contact_description">¿Listo para contactarnos? Cuéntanos sobre tu proyecto.</p>
         </div>
 
-        <div class="row mt-5">
+        <div class="row contact-info">
 
-          <div class="col-lg-4" data-aos="fade-right">
-            <div class="info">
-              <!-- <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Ubicación:</h4>
-                <p>La Plata, Buenos Aires, Argentina</p>
-              </div> -->
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p><a href="mailto:info@roblelab.com.ar">info@roblelab.com.ar</a></p>
-              </div>
-
-              <!-- <div class="phone">
-                <i class="bi bi-github"></i>
-                <h4>Repository:</h4>
-                <p><a href="https://github.com/RobleLab" target="_blank">Github Repository</a></p>
-              </div> -->
-
+          <!-- <div class="col-md-4">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <address>A108 Adam Street, NY 535022, USA</address>
             </div>
-
           </div>
 
-          <!-- <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="bi bi-phone"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            </div>
           </div> -->
 
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">info@roblelab.com.ar</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- <div class="container mb-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div> -->
+
+      <!-- <div class="container">
+        <div class="form">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
         </div>
 
-      </div>
+      </div> -->
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -737,24 +510,17 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3><span class="iso-roble">ROBLE<span class="iso-lab">LAB</span></span></h3>
-      <!-- <p>Somos la pata tecnológica de tu emprendimiento.</p> -->
-      <!-- <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="email"><i class="bi bi-envelope"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div> -->
-
       <div class="copyright">
-        &copy; <span id="now_year">xxxx</span> Copyright <strong><span>RobleLab</span></strong>. All Rights Reserved
+        &copy; Copyright <strong>RobleLab</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -772,10 +538,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-    let date =  new Date().getFullYear();
-    document.getElementById("now_year").innerHTML=date;
-  </script>
+  <!-- Translations -->
+  <script src="assets/js/translations.js"></script>
 
 </body>
 

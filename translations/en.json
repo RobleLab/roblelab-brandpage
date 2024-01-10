@@ -1,0 +1,60 @@
+{
+    "topbar_about": "About",
+    "topbar_services": "Services",
+    "topbar_portfolio": "Portfolio",
+    "topbar_team": "Team",
+    "topbar_contact": "Contact",
+
+    "slogan0": "Making",
+    "slogan1": "your ideas",
+    "slogan2": "happen!",
+
+    "hero_but1": "Get Started",
+    "hero_but2": "Our Projects",
+
+    "about_title": "About us",
+    "about_description": "At RobleLab, an Argentine IT startup, we specialize in software development and hardware design for the industry, with a focus on various key areas:",
+    "about_description2": "Moreover, we deliver cutting-edge technological solutions that ensure continuous access to critical information through our cloud services, ensuring constant availability.",
+   
+    "about_list1": "Environmental quality and energy efficiency",
+    "about_list2": "Scalable monitoring of remote systems",
+    "about_list3": "Systems development in embedded systems",
+    "about_list4": "Intelligent image processing",
+    "about_list5": "Information in the cloud always available",
+
+    "services_title": "Services",
+    "services_description": "How we can help you implement your project:",
+
+    "services_1_title":"Software development",
+    "services_1_description": "We develop flexible systems adaptable to all types of industries, such as food, agriculture, mining, oil, etc. High added value products. Replacement of imports and possibility of export.",
+
+    "services_2_title":"Cloud integration",
+    "services_2_description": "We develop solutions that can be integrated into high availability cloud computing environments.",
+  
+    "services_3_title":"Embedded devices",
+    "services_3_description": "We design hardware and firmware for devices embedded in the most relevant architectures on the market, such as Raspberry Pi, ESP32, ESP8266, etc.",
+  
+    "services_4_title":"Energy efficiency",
+    "services_4_description": "We have experience in the energy industry focusing on energy efficiency and environmental care.",
+
+    "clients_title": "Clients/Partnerships",
+    "clients_description": "",
+
+    "portfolio_title":"Portfolio",
+    "portfolio_description":"Explore Our Featured Projects",
+    
+    "cta_title": "Boost your business with us",
+    "cta_description": "Discover how our solutions in IoT, software development and data processing can enhance your company.",
+    "cta_button": "Explore our solutions now!",
+
+    "team_title": "Our Team",
+
+    "ing_abreviatura": "Eng. ",
+    "apu_abreviatura": "APU. ",
+
+    "contact_title" : "Contact",
+
+    "contact_description": "Ready to contact us?"
+
+  }
+  

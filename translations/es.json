@@ -1,0 +1,57 @@
+{
+  "topbar_about": "Acerca",
+  "topbar_services": "Servicios",
+  "topbar_portfolio": "Desarrollos",
+  "topbar_team": "Equipo",
+  "topbar_contact": "Contacto",
+
+  "slogan0": "¡Haciendo",
+  "slogan1": "sus ideas",
+  "slogan2": "realidad!",
+
+  "hero_but1": "Iniciar",
+  "hero_but2": "Proyectos",
+
+  "about_title": "Acerca de RobleLab",
+  "about_description": "En RobleLab, una startup argentina de tecnología, nos especializamos en el desarrollo de software y diseño de hardware para la industria, con enfoque en diversas áreas:",
+  "about_list1": "Calidad ambiental y eficiencia energética",
+  "about_list2": "Monitoreo escalable de sistemas remotos",
+  "about_list3": "Desarrollo de sistemas en sistemas embebidos",
+  "about_list4": "Procesamiento inteligente de imágenes",
+  "about_description2": "Además, proporcionamos soluciones tecnológicas de vanguardia que garantizan acceso continuo a información crítica a través de nuestros servicios en la nube, asegurando disponibilidad constante.",
+
+  "services_title": "Servicios",
+  "services_description": "Como podemos ayudarle a implementar su proyecto:",
+
+  "services_1_title":"Desarrollo de software",
+  "services_1_description": "Desarrollamos sistemas flexibles adaptables a todo tipo de industria, como alimenticia, agropecuaria, minera, petrolera, etc. Productos de alto valor agregado. Reemplazo de importaciones y posibilidad de exportación.",
+
+  "services_2_title":"Integración en la nube",
+  "services_2_description": "Desarrollamos soluciones integrables en ambientes de cloud computing en alta disponibilidad.",
+
+  "services_3_title":"Dispositivos embebidos",
+  "services_3_description": "Diseñamos hardware y firmware para dispositivos embebidos en las arquitecturas mas relevantes en el mercado, como Raspberry Pi, ESP32, ESP8266, etcétera.",
+
+  "services_4_title":"Eficiencia energética",
+  "services_4_description": "Contamos con experiencia en la indústria energética poniéndo foco en eficiencia energética y cuidado de medio ambiente.",
+
+  "clients_title":"Clientes y partnerships",
+  "clients_description":"",
+
+  "portfolio_title":"Proyectos",
+  "portfolio_description":"Explora Nuestros Proyectos Destacados",
+
+  "cta_title": "Potencia tu negocio con nosotros",
+  "cta_description": "Descubre cómo nuestras soluciones en IoT, desarrollo de software y procesamiento de datos pueden potenciar tu empresa.",
+  "cta_button": "¡Explora nuestras soluciones ahora!",
+
+  "team_title": "Nuestro equipo",
+
+  "ing_abreviatura": "Ing. ",
+  "apu_abreviatura": "APU. ",
+
+  "contact_title" : "Contacto",
+
+  "contact_description": "¿Listo para contactarnos?"
+
+}
